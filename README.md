@@ -8,10 +8,10 @@
 
 ```bash
 user@user:~# git clone https://github.com/xo666/test_task_laravel.git
-user@user:~# cd test_task_lara
+user@user:~# cd test_task_laravel
 user@user:~# composer install
 user@user:~# docker-compose up -d
-user@user:~# docker exec -it test_task_laravel_app bash
+user@user:~# docker exec -it test_task_laravel_app_1 bash
 root@a1bfb171ddaa:/var/www# cp .env.example .env 
 root@a1bfb171ddaa:/var/www# php artisan key:generate
 root@a1bfb171ddaa:/var/www# php artisan migrate
